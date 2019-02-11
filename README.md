@@ -8,3 +8,5 @@ description: from 1c-Bitrix
 
 ### [Документация](https://sopdu.gitbook.io/b24-support/)
 
+developer site: [sopdu.org](https://sopdu.org)
+
