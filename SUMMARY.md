@@ -17,5 +17,6 @@
   * [main](tickettask.php/commenttask/main.md)
 * [toLead](tickettask.php/tolead/README.md)
   * [getContact \(private\)](tickettask.php/tolead/getcontact-private.md)
+  * [getLead \(private\)](tickettask.php/tolead/getlead-private.md)
   * [main \(public\)](tickettask.php/tolead/main.md)
 
