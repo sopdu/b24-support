@@ -15,4 +15,6 @@
   * [main](tickettask.php/commenttask/main.md)
 * [toLead](tickettask.php/tolead/README.md)
   * [main](tickettask.php/tolead/main.md)
+* [ilsCore](tickettask.php/ilscore/README.md)
+  * [dump](tickettask.php/ilscore/dump.md)
 
