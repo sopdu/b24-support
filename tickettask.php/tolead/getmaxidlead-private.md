@@ -1,7 +1,7 @@
 # getMaxIdLead \(private\)
 
 ```php
-selt::getMaxIdLead();
+self::getMaxIdLead();
 ```
 
 Функция получает id последнего лида
