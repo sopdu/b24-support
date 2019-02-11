@@ -19,5 +19,6 @@
   * [getContact \(private\)](tickettask.php/tolead/getcontact-private.md)
   * [getLead \(private\)](tickettask.php/tolead/getlead-private.md)
   * [addLead \(private\)](tickettask.php/tolead/addlead-private.md)
+  * [getMaxIdLead \(private\)](tickettask.php/tolead/getmaxidlead-private.md)
   * [main \(public\)](tickettask.php/tolead/main.md)
 
