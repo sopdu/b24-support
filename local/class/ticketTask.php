@@ -1,4 +1,14 @@
 <?php
+CModule::IncludeModule("tasks");
+CModule::IncludeModule("support");
+CModule::IncludeModule("forum");
+CModule::IncludeModule("socialnetwork");
+CModule::IncludeModule("blog");
+CModule::IncludeModule("im");
+CModule::IncludeModule("main");
+CModule::IncludeModule("iblock");
+
+
 class ilsCore {
     public function dump($value){
         $filePath = $_SERVER["DOCUMENT_ROOT"].'/MyDump.txt';
@@ -85,7 +95,6 @@ class toLead {
     }
     private function addTask($name, $lastName, $group){
         if($group == 7){
-            CModule::IncludeModule("tasks");
             $obTask = new CTasks;
             $obTask->Add(
                 array(
