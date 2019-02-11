@@ -6,7 +6,7 @@
 ## ticketTask.php
 
 * [ilsCore](tickettask.php/ilscore/README.md)
-  * [dump](tickettask.php/ilscore/dump.md)
+  * [dump \(public\)](tickettask.php/ilscore/dump.md)
 * [newTicket](tickettask.php/newticket/README.md)
   * [main \(public\)](tickettask.php/newticket/main.md)
 * [upTicket](tickettask.php/upticket/README.md)
