@@ -1,5 +1,5 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [b24-support](README.md)
 * [Список изменений](spisok-izmenenii.md)
 
