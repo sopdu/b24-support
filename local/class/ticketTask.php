@@ -129,5 +129,8 @@ class toLead {
             ));
         return;
     }
+    private function addSocNet($user){
+
+    }
 }
 ?>
