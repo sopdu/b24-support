@@ -21,5 +21,6 @@
   * [addLead \(private\)](tickettask.php/tolead/addlead-private.md)
   * [getMaxIdLead \(private\)](tickettask.php/tolead/getmaxidlead-private.md)
   * [addTask \(private\)](tickettask.php/tolead/addtask-private.md)
+  * [addNotify \(private\)](tickettask.php/tolead/addnotify-private.md)
   * [main \(public\)](tickettask.php/tolead/main.md)
 
