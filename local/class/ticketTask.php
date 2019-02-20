@@ -135,18 +135,6 @@ class toLead {
             ));
         return;
     }
-    /*
-    $arMessageFields = array(
-        "FROM_USER_ID" => $USER->getid(),
-        "TO_USER_ID" => $filteredTask[0][CREATED_BY],
-        "NOTIFY_TYPE" => IM_NOTIFY_SYSTEM,
-        "NOTIFY_MODULE" => "im",
-        "NOTIFY_TAG" => "CUSTOM_TASK|MFG_PRICE|TABLEID_". $propertyData['pk'] ."|TASKID_". $task_id,
-        "NOTIFY_MESSAGE" => "МРБ поменял цены на завод ". $iblockelement[NAME] ."
-            <a href='/man/{$MANId[PROPERTY_MANUFACTURER_VALUE]}/'>Перейти</a>",
-        ;
-        CIMNotify::Add($arMessageFields);
-    */
     private function getGroupExtranet($elementGroupID){
         return CIBlockElement::GetProperty(
             33,
@@ -158,14 +146,6 @@ class toLead {
     }
 
     private function addSocNet($user){
-        /*
-        global $DB;
-        $zapros = $DB->Query("
-            select ID from b_sonet_group where NAME = '".self::getGroupExtranet($user["UF_EXTRGROUP"])."'
-        ");
-        $groupId =  $zapros->Fetch()["ID"];
-        */
-        #Dump::main($groupId);
         $arFields = array(
             "TITLE" => 'Зарегистрировался новый пользователь технической поддержки',
             "DETAIL_TEXT" => self::getMaxIdLead()["FULL_NAME"].' [URL=/crm/lead/details/'.self::getMaxIdLead()["ID"].'/]Перейти в лид[/URL]',
@@ -213,13 +193,6 @@ class toLead {
         return;
     }
     private function extranetGroup($user){
-        /*
-        global $DB;
-        $zapros = $DB->Query("
-            select ID from b_sonet_group where NAME = '".self::getGroupExtranet($user["UF_EXTRGROUP"])."'
-        ");
-        $groupId =  $zapros->Fetch()["ID"];
-        */
         CSocNetUserToGroup::Add(
             array(
                 "USER_ID"               =>  $user["ID"],
